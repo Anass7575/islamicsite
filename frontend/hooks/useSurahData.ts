@@ -46,19 +46,21 @@ export function useSurahData(surahNumber: number) {
         console.log(`Fetching surah ${surahNumber}...`)
         
         // Fetch Arabic text and audio
-        const arabicResponse = await apiClient.get(
-          `/api/quran/surah/${surahNumber}/ar.alafasy`
-        )
+        // Use external Quran API that works
+        const arabicResponse = await fetch(
+          `https://api.quran.com/api/v4/quran/verses/uthmani?chapter_number=${surahNumber}`
+        ).then(res => res.json())
         console.log('Arabic response:', arabicResponse)
         
         // Fetch French translation
-        const translationResponse = await apiClient.get(
-          `/api/quran/surah/${surahNumber}/fr.hamidullah`
-        )
+        const translationResponse = await fetch(
+          `https://api.quran.com/api/v4/quran/translations/136?chapter_number=${surahNumber}`
+        ).then(res => res.json())
         console.log('Translation response:', translationResponse)
         
-        setSurahData(arabicResponse.data.data)
-        setTranslationData(translationResponse.data.data)
+        // Format data for component
+        setSurahData(arabicResponse.verses || [])
+        setTranslationData(translationResponse.translations || [])
       } catch (error) {
         console.error('Surah fetch error:', error)
         logger.error('Error fetching surah', error)
