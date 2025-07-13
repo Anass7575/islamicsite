@@ -1,0 +1,66 @@
+interface AlHidayaLogoProps {
+  size?: number
+  className?: string
+}
+
+export default function AlHidayaLogo({ size = 512, className = '' }: AlHidayaLogoProps) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 512 512"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      {/* Background Circle */}
+      <circle cx="256" cy="256" r="256" fill="#00a968" />
+      
+      {/* Inner decorative circle */}
+      <circle cx="256" cy="256" r="230" fill="none" stroke="#d4af37" strokeWidth="2" />
+      
+      {/* Mosque Dome */}
+      <path
+        d="M256 120 C200 120, 150 170, 150 220 L150 280 L362 280 L362 220 C362 170, 312 120, 256 120 Z"
+        fill="#ffffff"
+      />
+      
+      {/* Mosque Minaret */}
+      <rect x="180" y="280" width="30" height="100" fill="#ffffff" />
+      <rect x="302" y="280" width="30" height="100" fill="#ffffff" />
+      
+      {/* Center Tower */}
+      <rect x="241" y="200" width="30" height="180" fill="#ffffff" />
+      
+      {/* Minaret Tops */}
+      <path d="M195 280 L180 260 L210 260 Z" fill="#ffffff" />
+      <path d="M317 280 L302 260 L332 260 Z" fill="#ffffff" />
+      
+      {/* Crescent Moon */}
+      <path
+        d="M256 80 C246 80, 238 88, 238 98 C238 108, 246 116, 256 116 C250 116, 244 110, 244 98 C244 86, 250 80, 256 80 Z"
+        fill="#d4af37"
+      />
+      
+      {/* Base */}
+      <rect x="150" y="380" width="212" height="20" fill="#ffffff" />
+      
+      {/* Decorative Arabic Calligraphy (stylized "Al-Hidaya") */}
+      <path
+        d="M180 320 Q190 310, 200 320 T220 320 Q230 310, 240 320 T260 320 Q270 310, 280 320 T300 320 Q310 310, 320 320 T340 320"
+        fill="none"
+        stroke="#d4af37"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+      
+      {/* Star decorations */}
+      <g fill="#d4af37">
+        <path d="M150 150 L152 156 L158 156 L153 160 L155 166 L150 162 L145 166 L147 160 L142 156 L148 156 Z" />
+        <path d="M362 150 L364 156 L370 156 L365 160 L367 166 L362 162 L357 166 L359 160 L354 156 L360 156 Z" />
+        <path d="M100 250 L102 256 L108 256 L103 260 L105 266 L100 262 L95 266 L97 260 L92 256 L98 256 Z" />
+        <path d="M412 250 L414 256 L420 256 L415 260 L417 266 L412 262 L407 266 L409 260 L404 256 L410 256 Z" />
+      </g>
+    </svg>
+  )
+}

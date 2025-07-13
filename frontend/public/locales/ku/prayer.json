@@ -1,0 +1,21 @@
+{
+  "title": "[ku] Prayer Times",
+  "fajr": "[ku] Fajr",
+  "sunrise": "[ku] Sunrise",
+  "dhuhr": "[ku] Dhuhr",
+  "asr": "[ku] Asr",
+  "maghrib": "[ku] Maghrib",
+  "isha": "[ku] Isha",
+  "nextPrayer": "[ku] Next Prayer",
+  "timeRemaining": "[ku] Time Remaining",
+  "adhan": "[ku] Adhan",
+  "iqamah": "[ku] Iqamah",
+  "qibla": "[ku] Qibla Direction",
+  "location": "[ku] Location",
+  "method": "[ku] Calculation Method",
+  "notifications": "[ku] Prayer Notifications",
+  "enableNotifications": "[ku] Enable Notifications",
+  "notificationSound": "[ku] Notification Sound",
+  "reminderBefore": "[ku] Reminder Before",
+  "minutes": "[ku] minutes"
+}

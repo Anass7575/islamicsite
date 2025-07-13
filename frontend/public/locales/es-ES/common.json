@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Tu Compañero Islámico Completo",
+    "description": "Experimenta la belleza del Islam con nuestra plataforma integral"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "quran": "Corán",
+    "hadith": "Hadiz",
+    "prayerTimes": "Horarios de Oración",
+    "qibla": "Qibla",
+    "calendar": "Calendario",
+    "zakat": "Zakat",
+    "learn": "Aprender",
+    "chat": "Asistente IA",
+    "settings": "Configuración",
+    "signIn": "Iniciar Sesión",
+    "signOut": "Cerrar Sesión"
+  },
+  "hero": {
+    "welcome": "Bienvenido a",
+    "subtitle": "Tu compañero islámico integral con la experiencia digital más hermosa.",
+    "features": "Accede al Corán, Hadiz, Horarios de Oración y más en 193 idiomas.",
+    "cta": {
+      "start": "Comienza Tu Viaje",
+      "demo": "Ver Demo"
+    }
+  },
+  "features": {
+    "title": "Todo lo que Necesitas para Tu",
+    "subtitle": "Viaje Espiritual",
+    "description": "Herramientas y recursos islámicos completos en una hermosa plataforma",
+    "quran": {
+      "title": "Sagrado Corán",
+      "description": "Corán completo con más de 50 traducciones, tafsir y recitaciones de audio"
+    },
+    "hadith": {
+      "title": "Colección de Hadices",
+      "description": "Accede a más de 40,000 hadices auténticos de las principales colecciones"
+    },
+    "qibla": {
+      "title": "Dirección de la Qibla",
+      "description": "Brújula precisa de la Qibla con vista AR para las oraciones"
+    },
+    "calendar": {
+      "title": "Calendario Islámico",
+      "description": "Calendario Hiyri con fechas y eventos islámicos importantes"
+    },
+    "zakat": {
+      "title": "Calculadora de Zakat",
+      "description": "Calcula tu Zakat con precisión con nuestra calculadora inteligente"
+    },
+    "chat": {
+      "title": "Asistente IA",
+      "description": "Obtén respuestas instantáneas a tus preguntas islámicas"
+    }
+  },
+  "prayers": {
+    "title": "Nunca Pierdas una Oración",
+    "description": "Horarios de oración precisos para tu ubicación con hermosas notificaciones de adhan",
+    "fajr": "Fajr",
+    "sunrise": "Amanecer",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "nextPrayer": "Próxima Oración",
+    "remaining": "Restante",
+    "currentTime": "Hora Actual",
+    "location": "Ubicación",
+    "settings": "Configuración de Oración"
+  },
+  "stats": {
+    "title": "Confiado por",
+    "subtitle": "Millones",
+    "worldwide": "En Todo el Mundo",
+    "description": "Únete a nuestra creciente comunidad de musulmanes que usan Al-Hidaya diariamente",
+    "users": "Usuarios Activos",
+    "translations": "Traducciones del Corán",
+    "hadiths": "Narraciones de Hadiz",
+    "languages": "Idiomas Soportados"
+  },
+  "languages": {
+    "title": "Disponible en",
+    "subtitle": "193 Idiomas",
+    "description": "Haciendo el conocimiento islámico accesible para todos, en todas partes",
+    "viewAll": "Ver Todos los {{count}} Idiomas"
+  },
+  "cta": {
+    "title": "Comienza Tu Viaje Hoy",
+    "description": "Únete a millones de musulmanes en todo el mundo experimentando el Islam a través de un diseño hermoso y características poderosas",
+    "getStarted": "Comenzar Gratis",
+    "learnMore": "Aprender Más"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "search": "Buscar",
+    "share": "Compartir",
+    "favorite": "Favorito",
+    "bookmark": "Marcador",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "download": "Descargar",
+    "upload": "Cargar",
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}

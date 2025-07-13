@@ -1,0 +1,23 @@
+{
+  "title": "[et] Zakat Calculator",
+  "calculate": "[et] Calculate Zakat",
+  "nisab": "[et] Nisab",
+  "assets": "[et] Assets",
+  "cash": "[et] Cash",
+  "gold": "[et] Gold",
+  "silver": "[et] Silver",
+  "stocks": "[et] Stocks",
+  "property": "[et] Property",
+  "business": "[et] Business",
+  "debts": "[et] Debts",
+  "liabilities": "[et] Liabilities",
+  "totalAssets": "[et] Total Assets",
+  "zakatDue": "[et] Zakat Due",
+  "rate": "[et] Zakat Rate",
+  "eligible": "[et] Eligible for Zakat",
+  "notEligible": "[et] Not Eligible for Zakat",
+  "distribution": "[et] Zakat Distribution",
+  "recipients": "[et] Eligible Recipients",
+  "history": "[et] Zakat History",
+  "saveCalculation": "[et] Save Calculation"
+}

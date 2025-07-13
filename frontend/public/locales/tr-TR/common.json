@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Eksiksiz İslami Arkadaşınız",
+    "description": "Kapsamlı platformumuzla İslam'ın güzelliğini deneyimleyin"
+  },
+  "navigation": {
+    "home": "Ana Sayfa",
+    "quran": "Kur'an",
+    "hadith": "Hadis",
+    "prayerTimes": "Namaz Vakitleri",
+    "qibla": "Kıble",
+    "calendar": "Takvim",
+    "zakat": "Zekat",
+    "learn": "Öğren",
+    "chat": "Yapay Zeka Asistanı",
+    "settings": "Ayarlar",
+    "signIn": "Giriş Yap",
+    "signOut": "Çıkış Yap"
+  },
+  "hero": {
+    "welcome": "Hoş Geldiniz",
+    "subtitle": "En güzel dijital deneyimle kapsamlı İslami arkadaşınız.",
+    "features": "Kur'an, Hadis, Namaz Vakitleri ve daha fazlasına 193 dilde erişin.",
+    "cta": {
+      "start": "Yolculuğunuza Başlayın",
+      "demo": "Demoyu İzle"
+    }
+  },
+  "features": {
+    "title": "Manevi Yolculuğunuz İçin",
+    "subtitle": "İhtiyacınız Olan Her Şey",
+    "description": "Güzel bir platformda kapsamlı İslami araçlar ve kaynaklar",
+    "quran": {
+      "title": "Kur'an-ı Kerim",
+      "description": "50'den fazla çeviri, tefsir ve sesli okumalarla eksiksiz Kur'an"
+    },
+    "hadith": {
+      "title": "Hadis Koleksiyonu",
+      "description": "Başlıca koleksiyonlardan 40.000'den fazla sahih hadise erişin"
+    },
+    "qibla": {
+      "title": "Kıble Yönü",
+      "description": "Namazlar için AR görünümlü hassas kıble pusulası"
+    },
+    "calendar": {
+      "title": "İslami Takvim",
+      "description": "Önemli İslami tarih ve etkinliklerle Hicri takvim"
+    },
+    "zakat": {
+      "title": "Zekat Hesaplayıcı",
+      "description": "Akıllı hesaplayıcımızla zekatınızı doğru hesaplayın"
+    },
+    "chat": {
+      "title": "Yapay Zeka Asistanı",
+      "description": "İslami sorularınıza anında cevaplar alın"
+    }
+  },
+  "prayers": {
+    "title": "Asla Bir Namazı Kaçırmayın",
+    "description": "Güzel ezan bildirimleriyle konumunuz için doğru namaz vakitleri",
+    "fajr": "Sabah",
+    "sunrise": "Güneş",
+    "dhuhr": "Öğle",
+    "asr": "İkindi",
+    "maghrib": "Akşam",
+    "isha": "Yatsı",
+    "nextPrayer": "Sonraki Namaz",
+    "remaining": "Kalan Süre",
+    "currentTime": "Şimdiki Zaman",
+    "location": "Konum",
+    "settings": "Namaz Ayarları"
+  },
+  "stats": {
+    "title": "Milyonlarca",
+    "subtitle": "Kişi Tarafından",
+    "worldwide": "Dünya Çapında",
+    "description": "Her gün Al-Hidaya'yı kullanan büyüyen Müslüman topluluğumuza katılın",
+    "users": "Aktif Kullanıcı",
+    "translations": "Kur'an Çevirisi",
+    "hadiths": "Hadis Rivayeti",
+    "languages": "Desteklenen Dil"
+  },
+  "languages": {
+    "title": "193 Dilde",
+    "subtitle": "Mevcut",
+    "description": "İslami bilgiyi herkes için, her yerde erişilebilir hale getiriyoruz",
+    "viewAll": "Tüm {{count}} Dili Görüntüle"
+  },
+  "cta": {
+    "title": "Bugün Yolculuğunuza Başlayın",
+    "description": "Güzel tasarım ve güçlü özelliklerle İslam'ı deneyimleyen dünya çapında milyonlarca Müslüman'a katılın",
+    "getStarted": "Ücretsiz Başla",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "retry": "Tekrar Dene",
+    "search": "Ara",
+    "share": "Paylaş",
+    "favorite": "Favori",
+    "bookmark": "Yer İmi",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "view": "Görüntüle",
+    "download": "İndir",
+    "upload": "Yükle",
+    "settings": "Ayarlar",
+    "help": "Yardım",
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları"
+  }
+}

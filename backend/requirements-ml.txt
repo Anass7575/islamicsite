@@ -1,0 +1,5 @@
+# Machine Learning dependencies (optional)
+# Install only if ML features are needed
+numpy==1.26.3
+pandas==2.1.4
+scikit-learn==1.4.0

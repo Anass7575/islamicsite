@@ -1,0 +1,23 @@
+{
+  "title": "[lmo] Zakat Calculator",
+  "calculate": "[lmo] Calculate Zakat",
+  "nisab": "[lmo] Nisab",
+  "assets": "[lmo] Assets",
+  "cash": "[lmo] Cash",
+  "gold": "[lmo] Gold",
+  "silver": "[lmo] Silver",
+  "stocks": "[lmo] Stocks",
+  "property": "[lmo] Property",
+  "business": "[lmo] Business",
+  "debts": "[lmo] Debts",
+  "liabilities": "[lmo] Liabilities",
+  "totalAssets": "[lmo] Total Assets",
+  "zakatDue": "[lmo] Zakat Due",
+  "rate": "[lmo] Zakat Rate",
+  "eligible": "[lmo] Eligible for Zakat",
+  "notEligible": "[lmo] Not Eligible for Zakat",
+  "distribution": "[lmo] Zakat Distribution",
+  "recipients": "[lmo] Eligible Recipients",
+  "history": "[lmo] Zakat History",
+  "saveCalculation": "[lmo] Save Calculation"
+}

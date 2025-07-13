@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Votre Compagnon Islamique Complet",
+    "description": "Découvrez la beauté de l'Islam avec notre plateforme complète"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "quran": "Coran",
+    "hadith": "Hadith",
+    "prayerTimes": "Heures de Prière",
+    "qibla": "Qibla",
+    "calendar": "Calendrier",
+    "zakat": "Zakat",
+    "learn": "Apprendre",
+    "chat": "Assistant IA",
+    "settings": "Paramètres",
+    "signIn": "Connexion",
+    "signOut": "Déconnexion"
+  },
+  "hero": {
+    "welcome": "Bienvenue sur",
+    "subtitle": "Votre compagnon islamique complet avec la plus belle expérience numérique.",
+    "features": "Accédez au Coran, aux Hadiths, aux heures de prière et plus encore dans 193 langues.",
+    "cta": {
+      "start": "Commencer Votre Voyage",
+      "demo": "Voir la Démo"
+    }
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour votre",
+    "subtitle": "Voyage Spirituel",
+    "description": "Outils et ressources islamiques complets dans une belle plateforme",
+    "quran": {
+      "title": "Saint Coran",
+      "description": "Coran complet avec plus de 50 traductions, tafsir et récitations audio"
+    },
+    "hadith": {
+      "title": "Collection de Hadiths",
+      "description": "Accès à plus de 40 000 hadiths authentiques des principales collections"
+    },
+    "qibla": {
+      "title": "Direction de la Qibla",
+      "description": "Boussole Qibla précise avec vue AR pour les prières"
+    },
+    "calendar": {
+      "title": "Calendrier Islamique",
+      "description": "Calendrier Hijri avec dates et événements islamiques importants"
+    },
+    "zakat": {
+      "title": "Calculateur de Zakat",
+      "description": "Calculez votre Zakat avec précision grâce à notre calculateur intelligent"
+    },
+    "chat": {
+      "title": "Assistant IA",
+      "description": "Obtenez des réponses instantanées à vos questions islamiques"
+    }
+  },
+  "prayers": {
+    "title": "Ne Manquez Jamais une Prière",
+    "description": "Heures de prière précises pour votre emplacement avec de belles notifications d'adhan",
+    "fajr": "Fajr",
+    "sunrise": "Lever du soleil",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "nextPrayer": "Prochaine Prière",
+    "remaining": "Restant",
+    "currentTime": "Heure Actuelle",
+    "location": "Emplacement",
+    "settings": "Paramètres de Prière"
+  },
+  "stats": {
+    "title": "Fait confiance par",
+    "subtitle": "Des Millions",
+    "worldwide": "Dans le Monde",
+    "description": "Rejoignez notre communauté croissante de musulmans utilisant Al-Hidaya quotidiennement",
+    "users": "Utilisateurs Actifs",
+    "translations": "Traductions du Coran",
+    "hadiths": "Narrations de Hadith",
+    "languages": "Langues Supportées"
+  },
+  "languages": {
+    "title": "Disponible en",
+    "subtitle": "193 Langues",
+    "description": "Rendre les connaissances islamiques accessibles à tous, partout",
+    "viewAll": "Voir Toutes les {{count}} Langues"
+  },
+  "cta": {
+    "title": "Commencez Votre Voyage Aujourd'hui",
+    "description": "Rejoignez des millions de musulmans dans le monde entier pour découvrir l'Islam à travers un design magnifique et des fonctionnalités puissantes",
+    "getStarted": "Commencer Gratuitement",
+    "learnMore": "En Savoir Plus"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "search": "Rechercher",
+    "share": "Partager",
+    "favorite": "Favori",
+    "bookmark": "Marque-page",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "download": "Télécharger",
+    "upload": "Téléverser",
+    "settings": "Paramètres",
+    "help": "Aide",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}

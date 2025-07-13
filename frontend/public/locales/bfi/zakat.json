@@ -1,0 +1,23 @@
+{
+  "title": "[bfi] Zakat Calculator",
+  "calculate": "[bfi] Calculate Zakat",
+  "nisab": "[bfi] Nisab",
+  "assets": "[bfi] Assets",
+  "cash": "[bfi] Cash",
+  "gold": "[bfi] Gold",
+  "silver": "[bfi] Silver",
+  "stocks": "[bfi] Stocks",
+  "property": "[bfi] Property",
+  "business": "[bfi] Business",
+  "debts": "[bfi] Debts",
+  "liabilities": "[bfi] Liabilities",
+  "totalAssets": "[bfi] Total Assets",
+  "zakatDue": "[bfi] Zakat Due",
+  "rate": "[bfi] Zakat Rate",
+  "eligible": "[bfi] Eligible for Zakat",
+  "notEligible": "[bfi] Not Eligible for Zakat",
+  "distribution": "[bfi] Zakat Distribution",
+  "recipients": "[bfi] Eligible Recipients",
+  "history": "[bfi] Zakat History",
+  "saveCalculation": "[bfi] Save Calculation"
+}

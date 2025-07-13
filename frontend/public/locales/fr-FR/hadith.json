@@ -1,0 +1,31 @@
+{
+  "title": "Collections de Hadith",
+  "collection": "Collection",
+  "book": "Livre",
+  "hadithNumber": "Hadith n°",
+  "narrator": "Narrateur",
+  "chain": "Chaîne de transmission",
+  "text": "Texte",
+  "grade": "Degré d'authenticité",
+  "sahih": "Authentique",
+  "hasan": "Bon",
+  "daif": "Faible",
+  "mawdu": "Fabriqué",
+  "search": "Rechercher dans les hadiths",
+  "searchByNarrator": "Rechercher par narrateur",
+  "searchByTopic": "Rechercher par sujet",
+  "categories": "Catégories",
+  "explanation": "Explication",
+  "relatedHadiths": "Hadiths connexes",
+  "share": "Partager",
+  "copy": "Copier",
+  "bookmark": "Marque-page",
+  "collections": {
+    "bukhari": "Sahih al-Bukhari",
+    "muslim": "Sahih Muslim",
+    "tirmidhi": "Jami at-Tirmidhi",
+    "abudawud": "Sunan Abu Dawud",
+    "nasai": "Sunan an-Nasa'i",
+    "ibnmajah": "Sunan Ibn Majah"
+  }
+}

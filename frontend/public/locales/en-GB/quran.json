@@ -1,0 +1,23 @@
+{
+  "title": "The Holy Quran",
+  "surah": "Surah",
+  "ayah": "Verse",
+  "juz": "Juz",
+  "page": "Page",
+  "search": "Search in Quran",
+  "translation": "Translation",
+  "transliteration": "Transliteration",
+  "tafsir": "Tafsir",
+  "recitation": "Recitation",
+  "reciter": "Reciter",
+  "play": "Play",
+  "pause": "Pause",
+  "bookmark": "Bookmark",
+  "share": "Share",
+  "copy": "Copy",
+  "fontSize": "Font Size",
+  "theme": "Theme",
+  "readingMode": "Reading Mode",
+  "notes": "Notes",
+  "memorization": "Memorization"
+}

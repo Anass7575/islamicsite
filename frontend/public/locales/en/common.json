@@ -1,0 +1,155 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Your Complete Islamic Companion",
+    "description": "Experience the beauty of Islam with our comprehensive platform"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "orContinueWith": "Or continue with",
+    "username": "Username",
+    "fullName": "Full Name"
+  },
+  "navigation": {
+    "home": "Home",
+    "quran": "Quran",
+    "hadith": "Hadith",
+    "prayerTimes": "Prayer Times",
+    "qibla": "Qibla",
+    "calendar": "Calendar",
+    "zakat": "Zakat",
+    "learn": "Learn",
+    "chat": "AI Chat",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "About",
+    "contact": "Contact",
+    "help": "Help",
+    "language": "Language"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "subtitle": "Your spiritual journey starts here",
+    "features": "with Quran, Hadith, Prayer Times, and more",
+    "cta": {
+      "start": "Get Started",
+      "demo": "Watch Demo",
+      "learnMore": "Learn More"
+    }
+  },
+  "features": {
+    "quran": {
+      "title": "Holy Quran",
+      "description": "Complete Quran with 50+ translations, tafsir, and audio recitations"
+    },
+    "hadith": {
+      "title": "Hadith Collection",
+      "description": "Access 40,000+ authentic Hadith from major collections"
+    },
+    "prayerTimes": {
+      "title": "Prayer Times",
+      "description": "Accurate prayer times with Adhan notifications"
+    },
+    "qibla": {
+      "title": "Qibla Direction",
+      "description": "Accurate Qibla compass with AR view for prayers"
+    },
+    "calendar": {
+      "title": "Islamic Calendar",
+      "description": "Hijri calendar with important Islamic dates and events"
+    },
+    "zakat": {
+      "title": "Zakat Calculator",
+      "description": "Calculate your Zakat accurately with our smart calculator"
+    },
+    "aiChat": {
+      "title": "AI Assistant",
+      "description": "Get instant answers to your Islamic questions"
+    }
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "download": "Download",
+    "share": "Share",
+    "copy": "Copy",
+    "refresh": "Refresh",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "showLess": "Show Less"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "noData": "No data available",
+    "comingSoon": "Coming Soon",
+    "underConstruction": "Under Construction",
+    "maintenance": "Under Maintenance",
+    "offline": "You are offline",
+    "online": "You are online",
+    "saved": "Saved successfully",
+    "deleted": "Deleted successfully",
+    "updated": "Updated successfully",
+    "created": "Created successfully",
+    "copied": "Copied to clipboard",
+    "shared": "Shared successfully"
+  },
+  "time": {
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "ago": "ago",
+    "now": "now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "nextWeek": "Next Week",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "nextMonth": "Next Month"
+  },
+  "islamic": {
+    "bismillah": "In the name of Allah, the Most Gracious, the Most Merciful",
+    "alhamdulillah": "All praise is due to Allah",
+    "inshallah": "If Allah wills",
+    "mashallah": "What Allah has willed",
+    "subhanallah": "Glory be to Allah",
+    "allahAkbar": "Allah is the Greatest",
+    "laIlahaIllallah": "There is no deity but Allah",
+    "astaghfirullah": "I seek forgiveness from Allah",
+    "jazakallah": "May Allah reward you",
+    "assalamuAlaikum": "Peace be upon you",
+    "walaikumAssalam": "And peace be upon you"
+  }
+}

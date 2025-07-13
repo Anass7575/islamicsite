@@ -1,0 +1,23 @@
+{
+  "title": "[ny] Zakat Calculator",
+  "calculate": "[ny] Calculate Zakat",
+  "nisab": "[ny] Nisab",
+  "assets": "[ny] Assets",
+  "cash": "[ny] Cash",
+  "gold": "[ny] Gold",
+  "silver": "[ny] Silver",
+  "stocks": "[ny] Stocks",
+  "property": "[ny] Property",
+  "business": "[ny] Business",
+  "debts": "[ny] Debts",
+  "liabilities": "[ny] Liabilities",
+  "totalAssets": "[ny] Total Assets",
+  "zakatDue": "[ny] Zakat Due",
+  "rate": "[ny] Zakat Rate",
+  "eligible": "[ny] Eligible for Zakat",
+  "notEligible": "[ny] Not Eligible for Zakat",
+  "distribution": "[ny] Zakat Distribution",
+  "recipients": "[ny] Eligible Recipients",
+  "history": "[ny] Zakat History",
+  "saveCalculation": "[ny] Save Calculation"
+}

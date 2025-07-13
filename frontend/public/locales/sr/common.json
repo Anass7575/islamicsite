@@ -1,0 +1,155 @@
+{
+  "app": {
+    "name": "[sr] Al-Hidaya",
+    "tagline": "[sr] Your Complete Islamic Companion",
+    "description": "[sr] Experience the beauty of Islam with our comprehensive platform"
+  },
+  "auth": {
+    "signIn": "[sr] Sign In",
+    "signUp": "[sr] Sign Up",
+    "signOut": "[sr] Sign Out",
+    "email": "[sr] Email",
+    "password": "[sr] Password",
+    "confirmPassword": "[sr] Confirm Password",
+    "forgotPassword": "[sr] Forgot Password?",
+    "rememberMe": "[sr] Remember Me",
+    "createAccount": "[sr] Create Account",
+    "alreadyHaveAccount": "[sr] Already have an account?",
+    "dontHaveAccount": "[sr] Don't have an account?",
+    "orContinueWith": "[sr] Or continue with",
+    "username": "[sr] Username",
+    "fullName": "[sr] Full Name"
+  },
+  "navigation": {
+    "home": "[sr] Home",
+    "quran": "[sr] Quran",
+    "hadith": "[sr] Hadith",
+    "prayerTimes": "[sr] Prayer Times",
+    "qibla": "[sr] Qibla",
+    "calendar": "[sr] Calendar",
+    "zakat": "[sr] Zakat",
+    "learn": "[sr] Learn",
+    "chat": "[sr] AI Chat",
+    "profile": "[sr] Profile",
+    "settings": "[sr] Settings",
+    "about": "[sr] About",
+    "contact": "[sr] Contact",
+    "help": "[sr] Help",
+    "language": "[sr] Language"
+  },
+  "hero": {
+    "welcome": "[sr] Welcome to",
+    "subtitle": "[sr] Your spiritual journey starts here",
+    "features": "[sr] with Quran, Hadith, Prayer Times, and more",
+    "cta": {
+      "start": "[sr] Get Started",
+      "demo": "[sr] Watch Demo",
+      "learnMore": "[sr] Learn More"
+    }
+  },
+  "features": {
+    "quran": {
+      "title": "[sr] Holy Quran",
+      "description": "[sr] Complete Quran with 50+ translations, tafsir, and audio recitations"
+    },
+    "hadith": {
+      "title": "[sr] Hadith Collection",
+      "description": "[sr] Access 40,000+ authentic Hadith from major collections"
+    },
+    "prayerTimes": {
+      "title": "[sr] Prayer Times",
+      "description": "[sr] Accurate prayer times with Adhan notifications"
+    },
+    "qibla": {
+      "title": "[sr] Qibla Direction",
+      "description": "[sr] Accurate Qibla compass with AR view for prayers"
+    },
+    "calendar": {
+      "title": "[sr] Islamic Calendar",
+      "description": "[sr] Hijri calendar with important Islamic dates and events"
+    },
+    "zakat": {
+      "title": "[sr] Zakat Calculator",
+      "description": "[sr] Calculate your Zakat accurately with our smart calculator"
+    },
+    "aiChat": {
+      "title": "[sr] AI Assistant",
+      "description": "[sr] Get instant answers to your Islamic questions"
+    }
+  },
+  "buttons": {
+    "save": "[sr] Save",
+    "cancel": "[sr] Cancel",
+    "delete": "[sr] Delete",
+    "edit": "[sr] Edit",
+    "close": "[sr] Close",
+    "submit": "[sr] Submit",
+    "next": "[sr] Next",
+    "previous": "[sr] Previous",
+    "back": "[sr] Back",
+    "continue": "[sr] Continue",
+    "confirm": "[sr] Confirm",
+    "download": "[sr] Download",
+    "share": "[sr] Share",
+    "copy": "[sr] Copy",
+    "refresh": "[sr] Refresh",
+    "search": "[sr] Search",
+    "filter": "[sr] Filter",
+    "sort": "[sr] Sort",
+    "viewAll": "[sr] View All",
+    "readMore": "[sr] Read More",
+    "showLess": "[sr] Show Less"
+  },
+  "messages": {
+    "loading": "[sr] Loading...",
+    "error": "[sr] An error occurred",
+    "success": "[sr] Success",
+    "warning": "[sr] Warning",
+    "info": "[sr] Information",
+    "noData": "[sr] No data available",
+    "comingSoon": "[sr] Coming Soon",
+    "underConstruction": "[sr] Under Construction",
+    "maintenance": "[sr] Under Maintenance",
+    "offline": "[sr] You are offline",
+    "online": "[sr] You are online",
+    "saved": "[sr] Saved successfully",
+    "deleted": "[sr] Deleted successfully",
+    "updated": "[sr] Updated successfully",
+    "created": "[sr] Created successfully",
+    "copied": "[sr] Copied to clipboard",
+    "shared": "[sr] Shared successfully"
+  },
+  "time": {
+    "seconds": "[sr] seconds",
+    "minutes": "[sr] minutes",
+    "hours": "[sr] hours",
+    "days": "[sr] days",
+    "weeks": "[sr] weeks",
+    "months": "[sr] months",
+    "years": "[sr] years",
+    "ago": "[sr] ago",
+    "now": "[sr] now",
+    "today": "[sr] Today",
+    "yesterday": "[sr] Yesterday",
+    "tomorrow": "[sr] Tomorrow",
+    "thisWeek": "[sr] This Week",
+    "lastWeek": "[sr] Last Week",
+    "nextWeek": "[sr] Next Week",
+    "thisMonth": "[sr] This Month",
+    "lastMonth": "[sr] Last Month",
+    "nextMonth": "[sr] Next Month"
+  },
+  "islamic": {
+    "bismillah": "[sr] In the name of Allah, the Most Gracious, the Most Merciful",
+    "alhamdulillah": "[sr] All praise is due to Allah",
+    "inshallah": "[sr] If Allah wills",
+    "mashallah": "[sr] What Allah has willed",
+    "subhanallah": "[sr] Glory be to Allah",
+    "allahAkbar": "[sr] Allah is the Greatest",
+    "laIlahaIllallah": "[sr] There is no deity but Allah",
+    "astaghfirullah": "[sr] I seek forgiveness from Allah",
+    "jazakallah": "[sr] May Allah reward you",
+    "assalamuAlaikum": "[sr] Peace be upon you",
+    "walaikumAssalam": "[sr] And peace be upon you"
+  }
+}

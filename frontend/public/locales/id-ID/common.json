@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Pendamping Islami Lengkap Anda",
+    "description": "Rasakan keindahan Islam dengan platform komprehensif kami"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "quran": "Al-Quran",
+    "hadith": "Hadis",
+    "prayerTimes": "Waktu Sholat",
+    "qibla": "Kiblat",
+    "calendar": "Kalender",
+    "zakat": "Zakat",
+    "learn": "Belajar",
+    "chat": "Asisten AI",
+    "settings": "Pengaturan",
+    "signIn": "Masuk",
+    "signOut": "Keluar"
+  },
+  "hero": {
+    "welcome": "Selamat Datang di",
+    "subtitle": "Pendamping Islami komprehensif Anda dengan pengalaman digital terindah.",
+    "features": "Akses Al-Quran, Hadis, Waktu Sholat, dan lainnya dalam 193 bahasa.",
+    "cta": {
+      "start": "Mulai Perjalanan Anda",
+      "demo": "Tonton Demo"
+    }
+  },
+  "features": {
+    "title": "Semua yang Anda Butuhkan untuk",
+    "subtitle": "Perjalanan Spiritual Anda",
+    "description": "Alat dan sumber daya Islami lengkap dalam satu platform yang indah",
+    "quran": {
+      "title": "Al-Quran Suci",
+      "description": "Al-Quran lengkap dengan 50+ terjemahan, tafsir, dan murottal audio"
+    },
+    "hadith": {
+      "title": "Koleksi Hadis",
+      "description": "Akses 40.000+ hadis shahih dari koleksi utama"
+    },
+    "qibla": {
+      "title": "Arah Kiblat",
+      "description": "Kompas kiblat akurat dengan tampilan AR untuk sholat"
+    },
+    "calendar": {
+      "title": "Kalender Islam",
+      "description": "Kalender Hijriyah dengan tanggal dan acara Islam penting"
+    },
+    "zakat": {
+      "title": "Kalkulator Zakat",
+      "description": "Hitung zakat Anda dengan akurat menggunakan kalkulator pintar kami"
+    },
+    "chat": {
+      "title": "Asisten AI",
+      "description": "Dapatkan jawaban instan untuk pertanyaan Islami Anda"
+    }
+  },
+  "prayers": {
+    "title": "Jangan Pernah Lewatkan Sholat",
+    "description": "Waktu sholat akurat untuk lokasi Anda dengan notifikasi adzan yang indah",
+    "fajr": "Subuh",
+    "sunrise": "Terbit",
+    "dhuhr": "Dzuhur",
+    "asr": "Ashar",
+    "maghrib": "Maghrib",
+    "isha": "Isya",
+    "nextPrayer": "Sholat Berikutnya",
+    "remaining": "Tersisa",
+    "currentTime": "Waktu Sekarang",
+    "location": "Lokasi",
+    "settings": "Pengaturan Sholat"
+  },
+  "stats": {
+    "title": "Dipercaya oleh",
+    "subtitle": "Jutaan",
+    "worldwide": "Di Seluruh Dunia",
+    "description": "Bergabunglah dengan komunitas Muslim kami yang terus berkembang menggunakan Al-Hidaya setiap hari",
+    "users": "Pengguna Aktif",
+    "translations": "Terjemahan Al-Quran",
+    "hadiths": "Riwayat Hadis",
+    "languages": "Bahasa Didukung"
+  },
+  "languages": {
+    "title": "Tersedia dalam",
+    "subtitle": "193 Bahasa",
+    "description": "Membuat pengetahuan Islam dapat diakses oleh semua orang, di mana saja",
+    "viewAll": "Lihat Semua {{count}} Bahasa"
+  },
+  "cta": {
+    "title": "Mulai Perjalanan Anda Hari Ini",
+    "description": "Bergabunglah dengan jutaan Muslim di seluruh dunia dalam merasakan Islam melalui desain yang indah dan fitur yang kuat",
+    "getStarted": "Mulai Gratis",
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "retry": "Coba Lagi",
+    "search": "Cari",
+    "share": "Bagikan",
+    "favorite": "Favorit",
+    "bookmark": "Tandai",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Sunting",
+    "view": "Lihat",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "settings": "Pengaturan",
+    "help": "Bantuan",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan"
+  }
+}

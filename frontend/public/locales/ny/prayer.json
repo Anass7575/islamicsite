@@ -1,0 +1,21 @@
+{
+  "title": "[ny] Prayer Times",
+  "fajr": "[ny] Fajr",
+  "sunrise": "[ny] Sunrise",
+  "dhuhr": "[ny] Dhuhr",
+  "asr": "[ny] Asr",
+  "maghrib": "[ny] Maghrib",
+  "isha": "[ny] Isha",
+  "nextPrayer": "[ny] Next Prayer",
+  "timeRemaining": "[ny] Time Remaining",
+  "adhan": "[ny] Adhan",
+  "iqamah": "[ny] Iqamah",
+  "qibla": "[ny] Qibla Direction",
+  "location": "[ny] Location",
+  "method": "[ny] Calculation Method",
+  "notifications": "[ny] Prayer Notifications",
+  "enableNotifications": "[ny] Enable Notifications",
+  "notificationSound": "[ny] Notification Sound",
+  "reminderBefore": "[ny] Reminder Before",
+  "minutes": "[ny] minutes"
+}

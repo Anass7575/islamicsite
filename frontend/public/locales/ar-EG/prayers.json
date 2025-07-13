@@ -1,0 +1,18 @@
+{
+  "title": "مواقيت الصلاة",
+  "fajr": "الفجر",
+  "sunrise": "الشروق",
+  "dhuhr": "الظهر",
+  "asr": "العصر",
+  "maghrib": "المغرب",
+  "isha": "العشاء",
+  "nextPrayer": "الصلاة التالية",
+  "timeRemaining": "الوقت المتبقي",
+  "currentTime": "الوقت الحالي",
+  "location": "الموقع",
+  "settings": "إعدادات الصلاة",
+  "notification": "الإشعارات",
+  "adhan": "الأذان",
+  "method": "طريقة الحساب",
+  "adjust": "ضبط الأوقات"
+}

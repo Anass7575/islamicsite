@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===========================
+   Variables & Theme
+   =========================== */
+@layer base {
+  :root {
+    /* Inspired by Islamic manuscripts */
+    --emerald-deep: #0F766E;
+    --emerald-light: #10B981;
+    --emerald-dark: #064E3B;
+    
+    --gold-soft: #F59E0B;
+    --gold-bright: #FCD34D;
+    --gold-muted: #D97706;
+    
+    --cream: #FEF3C7;
+    --cream-light: #FFFBEB;
+    --cream-dark: #F9E8B8;
+    
+    --sage: #4B5945;
+    --sage-light: #6B7763;
+    --sage-dark: #2D3530;
+    
+    /* Semantic colors */
+    --text-primary: #1F2937;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+    --text-inverse: #FFFFFF;
+    
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F9FAFB;
+    --bg-tertiary: #F3F4F6;
+    --bg-accent: var(--cream-light);
+    
+    --border-subtle: #E5E7EB;
+    --border-medium: #D1D5DB;
+    --border-strong: #9CA3AF;
+    
+    /* Shadows */
+    --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.06);
+    --shadow-large: 0 10px 15px rgba(0, 0, 0, 0.06), 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-gold: 0 4px 14px rgba(245, 158, 11, 0.15);
+    --shadow-emerald: 0 4px 14px rgba(15, 118, 110, 0.15);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .dark {
+    --text-primary: #F9FAFB;
+    --text-secondary: #E5E7EB;
+    --text-muted: #D1D5DB;
+    --text-inverse: #1F2937;
+    
+    --bg-primary: #111827;
+    --bg-secondary: #1F2937;
+    --bg-tertiary: #374151;
+    --bg-accent: #1F2937;
+    
+    --border-subtle: #374151;
+    --border-medium: #4B5563;
+    --border-strong: #6B7280;
+    
+    --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.4);
+    --shadow-large: 0 10px 15px rgba(0, 0, 0, 0.4), 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* ===========================
+   Base Styles
+   =========================== */
+@layer base {
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "kern" on, "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  /* Background pattern */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 20% 80%, var(--emerald-deep) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, var(--gold-soft) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, var(--cream) 0%, transparent 50%);
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  /* Islamic geometric pattern overlay */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(15, 118, 110, 0.02) 35px, rgba(15, 118, 110, 0.02) 70px),
+      repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(245, 158, 11, 0.02) 35px, rgba(245, 158, 11, 0.02) 70px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  main {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* ===========================
+   Typography
+   =========================== */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl leading-tight;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  h5 {
+    @apply text-lg md:text-xl lg:text-2xl;
+  }
+  
+  h6 {
+    @apply text-base md:text-lg lg:text-xl;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+  
+  /* Arabic text styling */
+  .arabic {
+    font-family: 'Amiri', 'Traditional Arabic', 'Noto Naskh Arabic', serif;
+    @apply text-xl md:text-2xl lg:text-3xl leading-loose tracking-wide;
+    direction: rtl;
+    font-feature-settings: "kern" on, "liga" on, "calt" on, "ss01" on;
+  }
+  
+  .arabic-display {
+    font-family: 'Amiri', serif;
+    @apply text-3xl md:text-4xl lg:text-5xl leading-loose;
+    font-weight: 700;
+  }
+}
+
+/* ===========================
+   Components
+   =========================== */
+@layer components {
+  /* Buttons with personality */
+  .btn {
+    @apply relative inline-flex items-center justify-center px-6 py-3 font-medium rounded-xl;
+    @apply transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98];
+    @apply focus:outline-none focus:ring-4 focus:ring-offset-2;
+    font-family: 'Poppins', sans-serif;
+    /* Slightly imperfect rounded corners */
+    border-radius: 0.875rem 0.75rem 0.875rem 0.75rem;
+  }
+  
+  .btn-primary {
+    @apply bg-emerald-deep text-white;
+    @apply hover:bg-emerald-dark hover:shadow-emerald;
+    @apply focus:ring-emerald-deep/50;
+    /* Subtle gradient */
+    background: linear-gradient(135deg, var(--emerald-deep) 0%, var(--emerald-dark) 100%);
+  }
+  
+  .btn-secondary {
+    @apply bg-gold-soft text-white;
+    @apply hover:bg-gold-muted hover:shadow-gold;
+    @apply focus:ring-gold-soft/50;
+    background: linear-gradient(135deg, var(--gold-soft) 0%, var(--gold-muted) 100%);
+  }
+  
+  .btn-outline {
+    @apply bg-transparent border-2 border-emerald-deep text-emerald-deep;
+    @apply hover:bg-emerald-deep hover:text-white hover:shadow-emerald;
+    @apply focus:ring-emerald-deep/50;
+  }
+  
+  /* Cards with warmth */
+  .card {
+    @apply rounded-2xl p-6 md:p-8;
+    @apply border transition-all duration-300;
+    background-color: var(--bg-primary);
+    border-color: var(--border-subtle);
+    box-shadow: var(--shadow-subtle);
+    /* Slightly asymmetric corners */
+    border-radius: 1.25rem 1.5rem 1.25rem 1.5rem;
+  }
+  
+  .card:hover {
+    @apply transform -translate-y-0.5;
+    box-shadow: var(--shadow-medium);
+    border-color: var(--border-medium);
+  }
+  
+  .card-glass {
+    @apply backdrop-blur-lg bg-white/70 dark:bg-gray-900/70;
+    @apply border border-white/20 dark:border-gray-700/20;
+  }
+  
+  /* Islamic pattern card */
+  .card-pattern {
+    @apply relative overflow-hidden;
+  }
+  
+  .card-pattern::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: 
+      repeating-conic-gradient(from 0deg at 50% 50%, 
+        transparent 0deg, 
+        rgba(15, 118, 110, 0.05) 15deg, 
+        transparent 30deg);
+    animation: rotate 60s linear infinite;
+  }
+  
+  @keyframes rotate {
+    to { transform: rotate(360deg); }
+  }
+  
+  /* Input fields */
+  .input {
+    @apply w-full px-4 py-3 rounded-xl;
+    @apply border transition-all duration-200;
+    @apply focus:outline-none focus:ring-4 focus:ring-emerald-deep/20;
+    @apply focus:border-emerald-deep;
+    background-color: var(--bg-secondary);
+    border-color: var(--border-subtle);
+    color: var(--text-primary);
+    /* Slightly imperfect rounded corners */
+    border-radius: 0.75rem 0.875rem 0.75rem 0.875rem;
+  }
+  
+  .input::placeholder {
+    color: var(--text-muted);
+  }
+  
+  .input:hover {
+    border-color: var(--border-medium);
+  }
+  
+  /* Focus states with personality */
+  *:focus-visible {
+    @apply outline-none ring-4 ring-emerald-deep/30;
+    @apply ring-offset-2 ring-offset-white dark:ring-offset-gray-900;
+  }
+}
+
+/* ===========================
+   Animations & Interactions
+   =========================== */
+@layer utilities {
+  /* Micro-animations */
+  .hover-float {
+    @apply transition-transform duration-300 ease-out;
+  }
+  
+  .hover-float:hover {
+    @apply transform -translate-y-1;
+  }
+  
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+  
+  .hover-glow:hover {
+    @apply shadow-lg;
+    filter: brightness(1.05);
+  }
+  
+  /* Breathing animation for sacred elements */
+  .breathe {
+    animation: breathe 4s ease-in-out infinite;
+  }
+  
+  @keyframes breathe {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.02); opacity: 0.95; }
+  }
+  
+  /* Shimmer effect */
+  .shimmer {
+    background: linear-gradient(
+      105deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.7) 50%,
+      transparent 60%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+  
+  @keyframes shimmer {
+    to {
+      background-position-x: -200%;
+    }
+  }
+  
+  /* Page transitions */
+  .page-enter {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  
+  .page-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease-out;
+  }
+}
+
+/* ===========================
+   Islamic Decorative Elements
+   =========================== */
+@layer components {
+  /* Ornamental divider */
+  .divider-ornament {
+    @apply relative text-center my-8;
+  }
+  
+  .divider-ornament::before,
+  .divider-ornament::after {
+    content: '';
+    @apply absolute top-1/2 w-[35%] h-px bg-gradient-to-r;
+    @apply from-transparent to-transparent;
+    --tw-gradient-stops: transparent, #F59E0B, transparent;
+  }
+  
+  .divider-ornament::before {
+    @apply left-0;
+  }
+  
+  .divider-ornament::after {
+    @apply right-0;
+  }
+  
+  .divider-ornament span {
+    @apply relative inline-block px-4;
+    color: var(--gold-soft);
+    font-family: 'Amiri', serif;
+    font-size: 1.5rem;
+  }
+  
+  /* Bismillah header */
+  .bismillah {
+    @apply text-center mb-8;
+    font-family: 'Amiri', serif;
+    @apply text-3xl md:text-4xl;
+    color: var(--emerald-deep);
+    position: relative;
+  }
+  
+  .bismillah::before,
+  .bismillah::after {
+    content: '◆';
+    @apply absolute top-0;
+    color: var(--gold-soft);
+    font-size: 1rem;
+  }
+  
+  .bismillah::before {
+    left: -2rem;
+  }
+  
+  .bismillah::after {
+    right: -2rem;
+  }
+}
+
+/* ===========================
+   Accessibility
+   =========================== */
+@layer utilities {
+  /* Skip link */
+  .skip-link {
+    @apply absolute left-[-9999px] top-2 z-50;
+    @apply bg-emerald-deep text-white px-4 py-2 rounded-md;
+  }
+  
+  .skip-link:focus {
+    @apply left-2;
+  }
+  
+  /* High contrast mode */
+  @media (prefers-contrast: high) {
+    :root {
+      --text-primary: #000000;
+      --bg-primary: #FFFFFF;
+      --emerald-deep: #00524E;
+      --gold-soft: #B37400;
+    }
+    
+    .dark {
+      --text-primary: #FFFFFF;
+      --bg-primary: #000000;
+    }
+  }
+  
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ===========================
+   Layout Helpers
+   =========================== */
+@layer utilities {
+  /* Responsive containers with breathing room */
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-6 md:px-8 lg:px-12;
+  }
+  
+  .container-wide {
+    @apply max-w-7xl mx-auto px-6 md:px-8 lg:px-12;
+  }
+  
+  /* Organic sections */
+  .section {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+  
+  .section-curved {
+    @apply relative;
+  }
+  
+  .section-curved::before {
+    content: '';
+    @apply absolute left-0 right-0 h-24;
+    @apply bg-white dark:bg-gray-900;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    @apply -top-12;
+  }
+  
+  /* Asymmetric spacing */
+  .space-organic > * + * {
+    margin-top: clamp(1.5rem, 3vw, 2.5rem);
+  }
+}
+
+/* ===========================
+   Custom Scrollbar
+   =========================== */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-full;
+  background-color: rgba(15, 118, 110, 0.3);
+  &:hover {
+    background-color: rgba(15, 118, 110, 0.5);
+  }
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--emerald-deep) var(--bg-secondary);
+}
+
+/* ===========================
+   Prayer Time Specific
+   =========================== */
+@layer components {
+  .prayer-card {
+    @apply relative overflow-hidden;
+    background: linear-gradient(to bottom right, #FFFBEB, #FEF3C7);
+    .dark & {
+      background: linear-gradient(to bottom right, #1F2937, #374151);
+    }
+    @apply rounded-2xl p-6 border;
+    border-color: rgba(245, 158, 11, 0.2);
+    @apply hover:shadow-gold transition-all duration-300;
+  }
+  
+  .prayer-card.active {
+    background: linear-gradient(to bottom right, #0F766E, #064E3B);
+    @apply text-white border-transparent;
+    @apply shadow-emerald;
+  }
+  
+  .prayer-time {
+    @apply text-2xl font-semibold;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* ===========================
+   Quran & Hadith Styling
+   =========================== */
+@layer components {
+  .ayah {
+    @apply mb-8 p-6 rounded-2xl;
+    background: linear-gradient(to bottom right, rgba(255, 251, 235, 0.5), transparent);
+    @apply border;
+    border-color: var(--border-subtle);
+    @apply transition-all duration-300;
+    &:hover {
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+  }
+  
+  .ayah-arabic {
+    @apply arabic text-3xl md:text-4xl mb-4;
+    color: var(--emerald-deep);
+    .dark & {
+      color: var(--emerald-light);
+    }
+    line-height: 2.5;
+  }
+  
+  .ayah-translation {
+    @apply text-lg italic;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+  
+  .verse-number {
+    @apply inline-flex items-center justify-center;
+    @apply w-10 h-10 rounded-full;
+    @apply text-white text-sm font-bold;
+    background-color: var(--gold-soft);
+    @apply ml-2 align-middle;
+  }
+}
+
+/* ===========================
+   Loading States
+   =========================== */
+@layer components {
+  .skeleton {
+    @apply rounded-xl;
+    background-color: var(--bg-tertiary);
+    @apply animate-pulse;
+  }
+  
+  .spinner {
+    @apply inline-block w-8 h-8 border-4;
+    border-color: var(--emerald-deep);
+    @apply border-t-transparent rounded-full animate-spin;
+  }
+}
+
+/* ===========================
+   Utility Classes
+   =========================== */
+@layer utilities {
+  /* Text gradient */
+  .text-gradient {
+    background: linear-gradient(to right, #0F766E, #10B981);
+    @apply bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-gold {
+    background: linear-gradient(to right, #D97706, #FCD34D);
+    @apply bg-clip-text text-transparent;
+  }
+  
+  /* Glass effect */
+  .glass {
+    @apply backdrop-blur-md bg-white/10 dark:bg-black/10;
+    @apply border border-white/20 dark:border-white/10;
+  }
+  
+  /* Organic shapes */
+  .blob {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  
+  .blob-animated {
+    animation: blob 8s ease-in-out infinite;
+  }
+  
+  @keyframes blob {
+    0%, 100% {
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    50% {
+      border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    }
+  }
+}

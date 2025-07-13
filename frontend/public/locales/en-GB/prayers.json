@@ -1,0 +1,18 @@
+{
+  "title": "Prayer Times",
+  "fajr": "Fajr",
+  "sunrise": "Sunrise",
+  "dhuhr": "Dhuhr",
+  "asr": "Asr",
+  "maghrib": "Maghrib",
+  "isha": "Isha",
+  "nextPrayer": "Next Prayer",
+  "timeRemaining": "Time Remaining",
+  "currentTime": "Current Time",
+  "location": "Location",
+  "settings": "Prayer Settings",
+  "notification": "Notifications",
+  "adhan": "Adhan",
+  "method": "Calculation Method",
+  "adjust": "Adjust Times"
+}

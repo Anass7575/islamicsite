@@ -1,0 +1,23 @@
+{
+  "title": "El Sagrado Corán",
+  "surah": "Sura",
+  "ayah": "Verso",
+  "juz": "Juz",
+  "page": "Página",
+  "search": "Buscar en el Corán",
+  "translation": "Traducción",
+  "transliteration": "Transliteración",
+  "tafsir": "Tafsir",
+  "recitation": "Recitación",
+  "reciter": "Recitador",
+  "play": "Reproducir",
+  "pause": "Pausa",
+  "bookmark": "Marcador",
+  "share": "Compartir",
+  "copy": "Copiar",
+  "fontSize": "Tamaño de Fuente",
+  "theme": "Tema",
+  "readingMode": "Modo de Lectura",
+  "notes": "Notas",
+  "memorization": "Memorización"
+}

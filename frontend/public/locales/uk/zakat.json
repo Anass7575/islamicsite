@@ -1,0 +1,23 @@
+{
+  "title": "[uk] Zakat Calculator",
+  "calculate": "[uk] Calculate Zakat",
+  "nisab": "[uk] Nisab",
+  "assets": "[uk] Assets",
+  "cash": "[uk] Cash",
+  "gold": "[uk] Gold",
+  "silver": "[uk] Silver",
+  "stocks": "[uk] Stocks",
+  "property": "[uk] Property",
+  "business": "[uk] Business",
+  "debts": "[uk] Debts",
+  "liabilities": "[uk] Liabilities",
+  "totalAssets": "[uk] Total Assets",
+  "zakatDue": "[uk] Zakat Due",
+  "rate": "[uk] Zakat Rate",
+  "eligible": "[uk] Eligible for Zakat",
+  "notEligible": "[uk] Not Eligible for Zakat",
+  "distribution": "[uk] Zakat Distribution",
+  "recipients": "[uk] Eligible Recipients",
+  "history": "[uk] Zakat History",
+  "saveCalculation": "[uk] Save Calculation"
+}

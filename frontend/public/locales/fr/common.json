@@ -1,0 +1,155 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Votre Compagnon Islamique Complet",
+    "description": "Découvrez la beauté de l'Islam avec notre plateforme complète"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signOut": "Se déconnecter",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "rememberMe": "Se souvenir de moi",
+    "createAccount": "Créer un compte",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "dontHaveAccount": "Vous n'avez pas de compte ?",
+    "orContinueWith": "Ou continuer avec",
+    "username": "Nom d'utilisateur",
+    "fullName": "Nom complet"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "quran": "Coran",
+    "hadith": "Hadith",
+    "prayerTimes": "Heures de prière",
+    "qibla": "Qibla",
+    "calendar": "Calendrier",
+    "zakat": "Zakat",
+    "learn": "Apprendre",
+    "chat": "Chat IA",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "about": "À propos",
+    "contact": "Contact",
+    "help": "Aide",
+    "language": "Langue"
+  },
+  "hero": {
+    "welcome": "Bienvenue sur",
+    "subtitle": "Votre voyage spirituel commence ici",
+    "features": "avec le Coran, les Hadiths, les heures de prière et plus encore",
+    "cta": {
+      "start": "Commencer",
+      "demo": "Voir la démo",
+      "learnMore": "En savoir plus"
+    }
+  },
+  "features": {
+    "quran": {
+      "title": "Saint Coran",
+      "description": "Coran complet avec plus de 50 traductions, tafsir et récitations audio"
+    },
+    "hadith": {
+      "title": "Collection de Hadiths",
+      "description": "Accédez à plus de 40 000 hadiths authentiques des principales collections"
+    },
+    "prayerTimes": {
+      "title": "Heures de prière",
+      "description": "Heures de prière précises avec notifications Adhan"
+    },
+    "qibla": {
+      "title": "Direction de la Qibla",
+      "description": "Boussole Qibla précise avec vue AR pour les prières"
+    },
+    "calendar": {
+      "title": "Calendrier islamique",
+      "description": "Calendrier hégirien avec dates et événements islamiques importants"
+    },
+    "zakat": {
+      "title": "Calculateur de Zakat",
+      "description": "Calculez votre Zakat avec précision grâce à notre calculateur intelligent"
+    },
+    "aiChat": {
+      "title": "Assistant IA",
+      "description": "Obtenez des réponses instantanées à vos questions islamiques"
+    }
+  },
+  "buttons": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "submit": "Soumettre",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "back": "Retour",
+    "continue": "Continuer",
+    "confirm": "Confirmer",
+    "download": "Télécharger",
+    "share": "Partager",
+    "copy": "Copier",
+    "refresh": "Actualiser",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "viewAll": "Voir tout",
+    "readMore": "Lire plus",
+    "showLess": "Afficher moins"
+  },
+  "messages": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "noData": "Aucune donnée disponible",
+    "comingSoon": "Bientôt disponible",
+    "underConstruction": "En construction",
+    "maintenance": "En maintenance",
+    "offline": "Vous êtes hors ligne",
+    "online": "Vous êtes en ligne",
+    "saved": "Enregistré avec succès",
+    "deleted": "Supprimé avec succès",
+    "updated": "Mis à jour avec succès",
+    "created": "Créé avec succès",
+    "copied": "Copié dans le presse-papier",
+    "shared": "Partagé avec succès"
+  },
+  "time": {
+    "seconds": "secondes",
+    "minutes": "minutes",
+    "hours": "heures",
+    "days": "jours",
+    "weeks": "semaines",
+    "months": "mois",
+    "years": "années",
+    "ago": "il y a",
+    "now": "maintenant",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "tomorrow": "Demain",
+    "thisWeek": "Cette semaine",
+    "lastWeek": "La semaine dernière",
+    "nextWeek": "La semaine prochaine",
+    "thisMonth": "Ce mois-ci",
+    "lastMonth": "Le mois dernier",
+    "nextMonth": "Le mois prochain"
+  },
+  "islamic": {
+    "bismillah": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux",
+    "alhamdulillah": "Toute louange est à Allah",
+    "inshallah": "Si Allah le veut",
+    "mashallah": "Ce qu'Allah a voulu",
+    "subhanallah": "Gloire à Allah",
+    "allahAkbar": "Allah est le Plus Grand",
+    "laIlahaIllallah": "Il n'y a de divinité qu'Allah",
+    "astaghfirullah": "Je demande pardon à Allah",
+    "jazakallah": "Qu'Allah vous récompense",
+    "assalamuAlaikum": "Que la paix soit sur vous",
+    "walaikumAssalam": "Et que la paix soit sur vous"
+  }
+}

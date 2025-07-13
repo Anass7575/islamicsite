@@ -1,0 +1,23 @@
+{
+  "title": "Le Saint Coran",
+  "surah": "Sourate",
+  "ayah": "Verset",
+  "juz": "Juz",
+  "page": "Page",
+  "search": "Rechercher dans le Coran",
+  "translation": "Traduction",
+  "transliteration": "Translittération",
+  "tafsir": "Tafsir",
+  "recitation": "Récitation",
+  "reciter": "Récitateur",
+  "play": "Écouter",
+  "pause": "Pause",
+  "bookmark": "Marque-page",
+  "share": "Partager",
+  "copy": "Copier",
+  "fontSize": "Taille de police",
+  "theme": "Thème",
+  "readingMode": "Mode lecture",
+  "notes": "Notes",
+  "memorization": "Mémorisation"
+}

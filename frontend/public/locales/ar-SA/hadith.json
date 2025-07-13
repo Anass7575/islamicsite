@@ -1,0 +1,31 @@
+{
+  "title": "مجموعات الحديث",
+  "collection": "المجموعة",
+  "book": "الكتاب",
+  "hadithNumber": "رقم الحديث",
+  "narrator": "الراوي",
+  "chain": "سلسلة الرواة",
+  "text": "النص",
+  "grade": "الدرجة",
+  "sahih": "صحيح",
+  "hasan": "حسن",
+  "daif": "ضعيف",
+  "mawdu": "موضوع",
+  "search": "البحث في الأحاديث",
+  "searchByNarrator": "البحث بالراوي",
+  "searchByTopic": "البحث بالموضوع",
+  "categories": "التصنيفات",
+  "explanation": "الشرح",
+  "relatedHadiths": "أحاديث ذات صلة",
+  "share": "مشاركة",
+  "copy": "نسخ",
+  "bookmark": "إشارة مرجعية",
+  "collections": {
+    "bukhari": "صحيح البخاري",
+    "muslim": "صحيح مسلم",
+    "tirmidhi": "جامع الترمذي",
+    "abudawud": "سنن أبي داود",
+    "nasai": "سنن النسائي",
+    "ibnmajah": "سنن ابن ماجه"
+  }
+}

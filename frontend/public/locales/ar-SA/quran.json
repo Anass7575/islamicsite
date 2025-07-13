@@ -1,0 +1,23 @@
+{
+  "title": "القرآن الكريم",
+  "surah": "سورة",
+  "ayah": "آية",
+  "juz": "جزء",
+  "page": "صفحة",
+  "search": "البحث في القرآن",
+  "translation": "ترجمة",
+  "transliteration": "نقل حرفي",
+  "tafsir": "تفسير",
+  "recitation": "تلاوة",
+  "reciter": "القارئ",
+  "play": "تشغيل",
+  "pause": "إيقاف مؤقت",
+  "bookmark": "إشارة مرجعية",
+  "share": "مشاركة",
+  "copy": "نسخ",
+  "fontSize": "حجم الخط",
+  "theme": "المظهر",
+  "readingMode": "وضع القراءة",
+  "notes": "ملاحظات",
+  "memorization": "حفظ"
+}

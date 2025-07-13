@@ -1,0 +1,18 @@
+{
+  "title": "Horarios de Oración",
+  "fajr": "Fajr",
+  "sunrise": "Amanecer",
+  "dhuhr": "Dhuhr",
+  "asr": "Asr",
+  "maghrib": "Maghrib",
+  "isha": "Isha",
+  "nextPrayer": "Próxima Oración",
+  "timeRemaining": "Tiempo Restante",
+  "currentTime": "Hora Actual",
+  "location": "Ubicación",
+  "settings": "Configuración de Oración",
+  "notification": "Notificaciones",
+  "adhan": "Adhan",
+  "method": "Método de Cálculo",
+  "adjust": "Ajustar Horarios"
+}

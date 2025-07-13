@@ -1,0 +1,122 @@
+{
+  "app": {
+    "name": "Al-Hidaya",
+    "tagline": "Your Complete Islamic Companion",
+    "description": "Experience the beauty of Islam with our comprehensive platform"
+  },
+  "navigation": {
+    "home": "Home",
+    "quran": "Quran",
+    "hadith": "Hadith",
+    "prayerTimes": "Prayer Times",
+    "qibla": "Qibla",
+    "calendar": "Calendar",
+    "zakat": "Zakat",
+    "learn": "Learn",
+    "chat": "AI Assistant",
+    "settings": "Settings",
+    "signIn": "Sign In",
+    "signOut": "Sign Out"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "subtitle": "Your comprehensive Islamic companion with the most beautiful digital experience.",
+    "features": "Access Quran, Hadith, Prayer Times, and more in 193 languages.",
+    "cta": {
+      "start": "Start Your Journey",
+      "demo": "Watch Demo"
+    }
+  },
+  "features": {
+    "title": "Everything You Need for Your",
+    "subtitle": "Spiritual Journey",
+    "description": "Comprehensive Islamic tools and resources in one beautiful platform",
+    "quran": {
+      "title": "Holy Quran",
+      "description": "Complete Quran with 50+ translations, tafsir, and audio recitations"
+    },
+    "hadith": {
+      "title": "Hadith Collection",
+      "description": "Access 40,000+ authentic Hadith from major collections"
+    },
+    "qibla": {
+      "title": "Qibla Direction",
+      "description": "Accurate Qibla compass with AR view for prayers"
+    },
+    "calendar": {
+      "title": "Islamic Calendar",
+      "description": "Hijri calendar with important Islamic dates and events"
+    },
+    "zakat": {
+      "title": "Zakat Calculator",
+      "description": "Calculate your Zakat accurately with our smart calculator"
+    },
+    "chat": {
+      "title": "AI Assistant",
+      "description": "Get instant answers to your Islamic questions"
+    }
+  },
+  "prayers": {
+    "title": "Never Miss a Prayer",
+    "description": "Accurate prayer times for your location with beautiful adhan notifications",
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha",
+    "nextPrayer": "Next Prayer",
+    "remaining": "Remaining",
+    "currentTime": "Current Time",
+    "location": "Location",
+    "settings": "Prayer Settings"
+  },
+  "stats": {
+    "title": "Trusted by",
+    "subtitle": "Millions",
+    "worldwide": "Worldwide",
+    "description": "Join our growing community of Muslims using Al-Hidaya daily",
+    "users": "Active Users",
+    "translations": "Quran Translations",
+    "hadiths": "Hadith Narrations",
+    "languages": "Languages Supported"
+  },
+  "languages": {
+    "title": "Available in",
+    "subtitle": "193 Languages",
+    "description": "Making Islamic knowledge accessible to everyone, everywhere",
+    "viewAll": "View All {{count}} Languages"
+  },
+  "cta": {
+    "title": "Start Your Journey Today",
+    "description": "Join millions of Muslims worldwide in experiencing Islam through beautiful design and powerful features",
+    "getStarted": "Get Started Free",
+    "learnMore": "Learn More"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "search": "Search",
+    "share": "Share",
+    "favorite": "Favorite",
+    "bookmark": "Bookmark",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "settings": "Settings",
+    "help": "Help",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
