@@ -177,7 +177,10 @@ class ResilientHadithAPI {
       }
       
       // Return fallback data
-      toast.info('Using offline data. Some features may be limited.', { duration: 5000 })
+      toast('Using offline data. Some features may be limited.', { 
+        duration: 5000,
+        icon: '📱'
+      })
       return FALLBACK_COLLECTIONS
     }
   }
