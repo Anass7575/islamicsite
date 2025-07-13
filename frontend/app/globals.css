@@ -3,6 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define custom utility classes immediately after tailwind directives */
+@layer utilities {
+  .border-border {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+  
+  .glass-light {
+    @apply bg-white/10 backdrop-blur-sm;
+  }
+  
+  .glass-border {
+    @apply border-white/20;
+  }
+}
+
 /* ===========================
    Variables & Theme
    =========================== */
@@ -635,19 +650,3 @@
   }
 }
 
-/* ===========================
-   Glass morphism utilities
-   =========================== */
-@layer utilities {
-  .glass-light {
-    @apply bg-white/10 backdrop-blur-sm;
-  }
-  
-  .glass-border {
-    @apply border-white/20;
-  }
-  
-  .border-border {
-    @apply border-gray-200 dark:border-gray-700;
-  }
-}
