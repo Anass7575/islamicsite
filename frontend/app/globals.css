@@ -634,3 +634,20 @@
     }
   }
 }
+
+/* ===========================
+   Glass morphism utilities
+   =========================== */
+@layer utilities {
+  .glass-light {
+    @apply bg-white/10 backdrop-blur-sm;
+  }
+  
+  .glass-border {
+    @apply border-white/20;
+  }
+  
+  .border-border {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+}
