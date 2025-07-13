@@ -57,6 +57,13 @@ export {
   FiUsers,
   FiVolume2,
   FiVolumeX,
+  FiWifiOff,
   FiX,
   FiXCircle,
+  FiCloudRain,
+  FiEye,
+  FiEyeOff,
+  FiUserPlus,
+  FiLogIn,
+  FiChevronUp,
 } from 'react-icons/fi'

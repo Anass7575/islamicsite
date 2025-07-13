@@ -137,7 +137,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} antialiased min-h-screen`}>
         <ThemeProvider>
-          <I18nProvider locale={locale}>
+          <I18nProvider>
             <ClientAuthProvider>
               <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
                 <Navigation />

@@ -5,7 +5,8 @@ export {
   useAnimation,
   useInView,
   useMotionValue,
-  useTransform
+  useTransform,
+  useScroll
 } from 'framer-motion'
 
 // Types

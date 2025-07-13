@@ -11,7 +11,7 @@ import { TestimonialsSection } from './TestimonialsSection'
 
 // Fix IslamicCalendar import
 const IslamicCalendar = dynamic(
-  () => import('./IslamicCalendar').then((mod) => mod.IslamicCalendar || mod.default),
+  () => import('./IslamicCalendar').then((mod) => mod.IslamicCalendar),
   {
     loading: () => <div className="skeleton h-64 w-full rounded-2xl" />,
     ssr: false

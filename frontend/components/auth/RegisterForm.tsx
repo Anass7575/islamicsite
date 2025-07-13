@@ -39,12 +39,12 @@ export function RegisterForm() {
     setIsLoading(true)
     
     try {
-      await register({
-        email: formData.email,
-        username: formData.username,
-        full_name: formData.fullName,
-        password: formData.password,
-      })
+      await register(
+        formData.email,
+        formData.username,
+        formData.password,
+        formData.fullName
+      )
       toast.success('Registration successful!')
       router.push('/login')
     } catch (error: any) {
