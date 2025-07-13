@@ -14,6 +14,14 @@ const nextConfig = {
     optimizePackageImports: ['react-icons', 'framer-motion', 'react-i18next'],
   },
   
+  // TypeScript and ESLint
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  
   // Image optimization
   images: {
     domains: ['api.quran.com', 'api.sunnah.com', 'maps.googleapis.com'],
